@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.password-generator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password-generator {
+    width: 200px;
+    padding: 60px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.password-generator h2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#password-input {
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#generate-button, #copy-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#generate-button:hover, #copy-button:hover {
+    background-color: #0056b3;
+}
+
+#copy-button svg {
+    margin-right: 5px;
+}
